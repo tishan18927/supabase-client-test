@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Socket } from '@supabase/realtime-js'
 import { ToastrService } from 'ngx-toastr';
 
-const REALTIME_URL = 'ws://qa.csi.local:4000/socket'
+const REALTIME_URL = 'ws://172.15.100.71:4000/socket'
 
 @Component({
   selector: 'app-dashboard',
